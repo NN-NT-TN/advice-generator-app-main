@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Advice generator app</title>
+</head>
+<body>
+
+ <main class="center">
+  <div class="warpper" id="app">
+    <div class="advice-id">ADVICE #{{ id }}</div>
+    <p class="advice-message">
+      "{{ message }}"
+    </p>
+    <div>
+      <img class="divider-desktop" src="images/pattern-divider-desktop.svg" alt="divider-desktop">
+      <img class="divider-mobile" src="images/pattern-divider-mobile.svg" alt="divider-mobile">
+    </div>
+    <button class="getrandom-btn" v-on:click="getrandom"><img src="images/icon-dice.svg" alt="btn"></button> 
+  </div>
+ </main>
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <script src="script.js"></script>
+</body>
+</html>
