@@ -19,8 +19,8 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Repository](https://github.com/NN-NT-TN/qr-code)
-- Live Site URL: [Live site URL](https://nn-nt-tn.github.io/qr-code/)
+- Solution URL: [Repository](https://github.com/NN-NT-TN/advice-generator-app-main)
+- Live Site URL: [Live site URL](https://nn-nt-tn.github.io/advice-generator-app-main/)
 
 ## My process
 
